@@ -1,0 +1,2 @@
+C:\projects\2017-3-27\AngularMaterial\src\AngularMaterial\wwwroot\ngApp\app.js
+C:\projects\2017-3-27\AngularMaterial\src\AngularMaterial\wwwroot\ngApp\app.js.map

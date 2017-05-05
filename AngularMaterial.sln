@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A08F38F1-ECB9-41B4-A000-B75D218E193E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02519ECC-22DE-41E3-875A-F6A735E99851}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AngularMaterial", "src\AngularMaterial\AngularMaterial.xproj", "{7F5A18E1-9749-448A-9CD1-AD35C11DE08A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F5A18E1-9749-448A-9CD1-AD35C11DE08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5A18E1-9749-448A-9CD1-AD35C11DE08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5A18E1-9749-448A-9CD1-AD35C11DE08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5A18E1-9749-448A-9CD1-AD35C11DE08A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F5A18E1-9749-448A-9CD1-AD35C11DE08A} = {A08F38F1-ECB9-41B4-A000-B75D218E193E}
+	EndGlobalSection
+EndGlobal

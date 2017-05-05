@@ -1,0 +1,14 @@
+﻿<md-dialog>
+    <md-dialog-content>
+        <h1>Add a task here</h1>
+        <form name="addTask">
+            <div layout="row">
+                <md-input-container>
+                    <label>Task Name</label>
+                    <input name="task" ng-model="task" />
+                </md-input-container>
+            </div>
+            <md-button class="md-primary" ng-click="dialog.addTask(task)">Add it!</md-button>
+        </form>
+    </md-dialog-content>
+</md-dialog>

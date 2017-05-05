@@ -1,0 +1,32 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" ng-app="AngularMaterial">
+<head>
+    <title></title>
+
+    <link href="~/lib/angular-material/angular-material.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+
+<body ng-controller="TaskController as controller">
+
+   <h2>To Do List</h2>
+    <ul>
+        <li ng-repeat="task in controller.tasks">{{task}}</li>
+    </ul>
+    <md-divider></md-divider>
+    {{controller.task}}
+    <md-button ng-click="controller.openDialog()">Add a new task here!</md-button>
+
+    <script src="~/lib/angular/angular.js"></script>
+
+    <!--all four tags for material-->
+    <script src="~/lib/angular-material/angular-material.js"></script>
+    <script src="~/lib/angular-animate/angular-animate.js"></script>
+    <script src="~/lib/angular-aria/angular-aria.js"></script>
+    <script src="~/lib/angular-messages/angular-messages.js"></script>
+
+    <script src="~/ngApp/app.js"></script>
+    <script src="~/ngApp/controllers.js"></script>
+
+</body>
+</html>
